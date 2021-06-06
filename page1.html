@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+            <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
+            
+            <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+            
+            
+    <style>
+    
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        
+        * {
+        font-family: Roboto;
+        }
+        
+        .header {
+            text-align: center;
+            }
+            
+        
+    </style>
+    
+
+    <title>testy</title>
+        
+        </head>
+    
+<body>
+
+<div class="header">
+  <h2>Math Blog</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>INITIAL</h2>
+      <h5>Repeated Algebra Error</h5>
+
+     <p> We begin with the expression
+     \[ \sqrt{1-\frac{2-\sqrt{2}}{4}} \] 
+     using the rule \[ \frac{a}{b}-\frac{c}{d} = \frac{ad-bc}{bd}   \]
+     
+     we get \[ \sqrt{\frac{4-2-\sqrt{2}}{4}}      \]
+     
+     At first glance we might just subtract the terms 4-2 and get 
+     
+     \[\sqrt{\frac{2-\sqrt{2}}{4}} \]
+     
+     However, 
+     
+     \[ \sqrt{\frac{4-2-\sqrt{2}}{4}}\neq\sqrt{\frac{2-\sqrt{2}}{4}} \]
+     
+     Instead we must two basic properties. The Associative and Distributive properties.
+     
+    
+     \[Associative \space property\] \[ (A+B)+C=A+(B+C) \]
+     \[And\]
+     \[Distributive \space property\] \[ A \cdot (B + C) = A \cdot B + A \cdot C \]
+     
+     
+     Utilizing the properties above we get 
+     
+     \[ \sqrt{\frac{4-(2-\sqrt{2})}{4}} \rightarrow \sqrt{\frac{4-2+\sqrt{2}}{4}} \rightarrow \sqrt{\frac{2+\sqrt{2}}{4}}   \]
+     
+     And thus we arrive at our answer.
+     
+     \[ \therefore \sqrt{1-\frac{2-\sqrt{2}}{4}} = \sqrt{\frac{2+\sqrt{2}}{4}} \]
+     </p>
+     
+     
+     
+     
+    </div>
+    
+</body>
+
+
+
+</html>
